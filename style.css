@@ -1,0 +1,55 @@
+:root {
+    --background-page-color: hsl(212, 45%, 89%);
+    --content-background-color: hsl(0, 0%, 100%);
+    --paragraph-color: hsl(216, 5%, 60%);
+    --title-color: hsl(218, 44%, 22%);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    background: var(--background-page-color);
+}
+
+h3 {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 22px;
+    color: var(--title-color);
+}
+
+p {
+    font-size: 15px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    color: hsl(216, 5%, 60%);
+    text-align: center;
+}
+
+h3, p {
+    font-family: 'Outfit';
+}
+
+.content {
+    max-width: 1440px;
+    width: 300px;
+}
+
+.qrcode {
+    background: var(--content-background-color);
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.qrcode-image {
+    max-width: 100%;
+    border-radius: 8px;
+}
